@@ -6,9 +6,29 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "Markus Nissl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/We-Inspire/WIConnect-node"
+  },
+  "contributors": [
+    { 
+      "name" : "Markus Nissl", 
+      "email" : "markus@markusnissl.com", 
+      "url" : "http://markusnissl.com/"
+    },
+    { "name" : "Christoph Burger",
+      "email" : "contact@christophburger.eu",
+      "url" : "http://christophburger.eu/"
+    },
+    { "name" : "Linus Horvath",
+      "email" : "linus.horvath@we-inspire.net",
+    }
+  ],
   "license": "MIT",
+  "homepage": "http://www.we-inspire.net",
+  "bugs": {
+    "url" : "https://github.com/We-Inspire/WIConnect-node/issues"
+  },
   "readmeFilename": "README.md",
   "dependencies": {
     "underscore": "~1.5.2",
