@@ -1,6 +1,6 @@
 {
   "name": "wiconnect",
-  "version": "0.1.0",
+  "version": "v0.1.0",
   "description": "WIconnect Node.js-Package",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
       "url" : "http://christophburger.eu/"
     },
     { "name" : "Linus Horvath",
-      "email" : "linus.horvath@we-inspire.net",
+      "email" : "linus.horvath@we-inspire.net"
     }
   ],
   "license": "MIT",
