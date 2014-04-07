@@ -1,5 +1,5 @@
 http = require('http');
-var weinspire = require("../../WIConnect");
+var weinspire = require("../../wiconnect");
 
 
 CONFIG = [];
