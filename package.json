@@ -1,5 +1,5 @@
 {
-  "name": "WIconnect",
+  "name": "wiconnect",
   "version": "0.1.0",
   "description": "WIconnect Node.js-Package",
   "main": "index.js",
