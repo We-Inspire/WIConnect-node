@@ -56,37 +56,37 @@ Copy the index.js from the example folder to your main application and adapt it.
 #Client:
 You will get a client with the laravel package. You can send packages to the Node.js-Server with javascript-commands.
 
-*Subscribe to a subscription published on the server
+* Subscribe to a subscription published on the server
 ```javascript
 	var handle = connection.subscribe("table")
 ```
 
-*Cancel a subscription
+* Cancel a subscription
 ```javascript
 	handle.stop();
 ```
 
-*Send a broadcast
+* Send a broadcast
 ```javascript
 	connection.subscribeBroadcast("channel",dadaobj);
 ```
 
-*Subscribe to a broadcast-channel
+* Subscribe to a broadcast-channel
 ```javascript
 	connection.subscribeBroadcast("channel");
 ```
 
-*Cancel broadcast-subscription
+* Cancel broadcast-subscription
 ```javascript
 	handle.stop();
 ```
 
-*Receive messages
+* Receive messages
 ```javascript
 	connection.on('chats', function(doc, messagetype){});
 ```
 
-*Receive broadcasts
+* Receive broadcasts
 ```javascript
 	connection.on('broadcast', function(message){});
 ```
