@@ -3,7 +3,6 @@ WIConnect-node
 
 
 You have to use the Node.js package in combination with the Laravel package.
-
 #Installation
 npm install wiconnect
 
@@ -55,5 +54,39 @@ Copy the index.js from the example folder to your main application and adapt it.
 	```
 
 #Client:
-You will get a client with the laravel package. With this client yo
+You will get a client with the laravel package. You can send packages to the Node.js-Server with javascript-commands.
 
+*Subscribe to a subscription published on the server
+```javascript
+	var handle = connection.subscribe("table")
+```
+
+*Cancel a subscription
+```javascript
+	handle.stop();
+```
+
+*Send a broadcast
+```javascript
+	connection.subscribeBroadcast("channel",dadaobj);
+```
+
+*Subscribe to a broadcast-channel
+```javascript
+	connection.subscribeBroadcast("channel");
+```
+
+*Cancel broadcast-subscription
+```javascript
+	handle.stop();
+```
+
+*Receive messages
+```javascript
+	connection.on('chats', function(doc, messagetype){});
+```
+
+*Receive broadcasts
+```javascript
+	connection.on('broadcast', function(message){});
+```
